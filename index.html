@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app="Calc1"> 
+
+<head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CMaterial+Icons%22%3E">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link  href="../node_modules/@chenfengyuan/datepicker/dist/datepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="Js/app.js"></script>
+    <title>Challenge Maths</title>
+</head>
+<body>
+
+    <div ng-controller="calculatorCtrl">
+    <Form name="calcul" role="form" class="form-group row">
+     <div class="form-group">
+         <div class="form-inline mb-3">
+            <input type="text" class="form-control" name="question1" ng-model="{{questions}}" placeholder="Exemple : 2 + 2" value="{{NbrRandom1}} {{Signe}} {{NbrRandom2}}"/>
+            <input type="text" class="form-control" name="reponse1" ng-model="{{questions}}" placeholder="Exemple : 4"/>
+            <button type="button" class="btn btn-warning mx-sm-2" >Valider</button> 
+        </div> 
+
+        <div class="form-inline mb-3">
+                <input type="text" class="form-control" name="question2" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                <input type="text" class="form-control" name="reponse2" ng-model="calcul" placeholder="Exemple : 4"/>
+                <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+            </div>
+
+            <div class="form-inline mb-3">
+                    <input type="text" class="form-control" name="question3" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                    <input type="text" class="form-control" name="reponse3" ng-model="calcul" placeholder="Exemple : 4"/>
+                    <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                </div>
+
+                <div class="form-inline mb-3">
+                        <input type="text" class="form-control" name="question4" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                        <input type="text" class="form-control" name="reponse4" ng-model="calcul" placeholder="Exemple : 4"/>
+                        <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                    </div>
+
+                    <div class="form-inline mb-3">
+                            <input type="text" class="form-control" name="question5" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                            <input type="text" class="form-control" name="reponse5" ng-model="calcul" placeholder="Exemple : 4"/>
+                            <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                        </div>
+            
+                        <div class="form-inline mb-3">
+                                <input type="text" class="form-control" name="question6" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                                <input type="text" class="form-control" name="reponse6" ng-model="calcul" placeholder="Exemple : 4"/>
+                                <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                            </div>
+
+                            <div class="form-inline mb-3">
+                                    <input type="text" class="form-control" name="question7" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                                    <input type="text" class="form-control" name="reponse7" ng-model="calcul" placeholder="Exemple : 4"/>
+                                    <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                                </div>
+
+                                <div class="form-inline mb-3">
+                                        <input type="text" class="form-control" name="question8" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                                        <input type="text" class="form-control" name="reponse8" ng-model="calcul" placeholder="Exemple : 4"/>
+                                        <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                                    </div>
+
+                                    <div class="form-inline mb-3">
+                                            <input type="text" class="form-control" name="question9" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                                            <input type="text" class="form-control" name="reponse9" ng-model="calcul" placeholder="Exemple : 4"/>
+                                            <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                                        </div>
+
+                                        <div class="form-inline mb-3">
+                                                <input type="text" class="form-control" name="question10" ng-model="calcul" placeholder="Exemple : 2 + 2"/>
+                                                <input type="text" class="form-control" name="reponse10" ng-model="calcul" placeholder="Exemple : 4 "/>
+                                                <button type="button" class="btn btn-warning mx-sm-2">Valider</button>
+                                            </div>
+
+            
+
+
+     </div>    
+    
+    
+    </Form>
+
+</div>
+</body>
+</html>
